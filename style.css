@@ -1,0 +1,236 @@
+/* --defult css-- */
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.fixed-width{
+    width: 1270px;
+    margin: auto;
+}
+.clear-div::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+
+
+/* --header section-- */
+.header{
+    background: #0984e3;
+  
+}
+.logo{
+    width: 10%;
+    height: auto;
+    float: left;
+}
+.logo img{
+    width: 192px;
+    height: auto;
+}
+.menu{
+    width: 70%;
+    float: right;
+    text-align: right;
+}
+.menu ul{
+    list-style-type: none;
+  
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 0 30px;
+    border-left: 1px solid white;
+    line-height: 50px;
+    transition: 0.5;
+
+}
+.menu ul li a:hover{
+    background: black;
+}
+
+
+/* --Banner-- */
+
+.banner{
+    background: url(img/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px;
+
+}
+.banner-caption h2{
+    background: #0000009f;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner-caption h1{
+    background: #1294f7ab;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+
+/* About section */
+
+.about{
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 50px;
+}
+.about h2{
+    text-align: center;
+    font-size: 25px;
+}
+.about p{
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* Service section */
+
+.service-section{
+    margin-top: 60px;
+    background: #b1ada92d;
+}
+.service-item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 2px 2px 4px #0984E3;
+}
+.service-item span{
+    background: #0984E3;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: auto;
+    line-height: 60px;
+    font-size: 35px;
+    color: white;
+    border-radius: 20px 0 20px 0;
+
+}
+.service-item h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.service-item p{
+    margin-top: 20px ;
+}
+
+
+/*  Work Section */
+.work{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.headline{
+    border-bottom: 4px solid #0984E3;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.planing {
+  
+    float: left;
+    width: 31.3%;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 30px;
+}
+.planing i{
+    color: #0984E3;
+    font-size: 80px;
+    border: 2px solid #0984E3;
+    border-radius: 50%;
+    padding: 20%;
+}
+    
+.planing h1{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.planing p{
+    opacity: 60%;
+}
+
+/*  Footer Section */
+
+.footer{
+    background: #77787eb9;
+    color: white;
+    padding: 50px;
+}
+.write{
+    float: left;
+    width: 40%;
+}
+.link{
+    float: right;
+    widh: 60%;
+}
+.link ul{}
+.link ul li{
+    display: inline-block;
+}
+.link ul a i{
+  
+    
+    font-size: 30px;
+    margin: 5px;
+    
+}
+.fb{
+    color: #0456f8
+}
+.tw{
+   color: #0ba8f7; 
+}
+.in{
+    color: #cc201e;
+}
+.ytb{
+    color: #F70000;
+}
+.link ul{}
+

@@ -1,0 +1,50 @@
+@media (max-width: 720px) {
+    .logo {
+        width: 40%;
+        height: auto;  
+    }
+    .menu {
+        width: 70%;
+        text-align: center;
+    }
+    .about{
+        box-sizing: border-box;
+        padding: 0 20px;
+        
+    }
+    .service-item{
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin: 20px;
+    }
+    .planing{
+        width: 100%;
+        background: #0984E3;
+        color: white;
+        margin-bottom: 20px;
+        max-width: 100%;
+        
+    }
+    .planing i{
+        color: white;
+        border-color: rgb(24, 31, 95);
+        padding: 20px;
+        
+    }
+    .menu ul li a{
+        border: none;
+        max-width: 100%;
+        
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .service-item{
+        max-width: 100%;
+        width: 100%;
+        margin: 20px 0px;
+    }
+}
